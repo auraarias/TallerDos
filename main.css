@@ -1,0 +1,104 @@
+body {
+  background-color: #f1d47a;
+  margin: 0;
+  font-family: 'Mitr', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.topnav {
+  overflow: hidden;
+  background-size: cover;
+  position: relative;
+  background-color: #2a9b98;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  color: #9bb932;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav .iconos {
+  float: right;
+  padding-right: 20px;
+}
+
+.topnav .iconos img {
+  width: 30px;
+  height: 28px;
+}
+
+.fondo {
+  position: absolute;
+  width: 100%;
+  max-width: 400px;
+}
+
+.fondo img {
+  width: 1500px;
+  height: auto;
+  padding-left: 30px;
+}
+
+.contenedores {
+  position: relative;
+  background-color: #7574ad;
+}
+
+.productos {
+  float: left;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+  width: 70%;
+  padding: 0;
+  margin: 0;
+  padding-left: 80px;
+}
+
+.productos .productoUno, .productos .productoDos, .productos .productoTres, .productos .productoCuatro
+, .productos .productoCinco, .productos .productoSeis, .productos .productoSiete,
+.productos .productoOcho, .productos .productoNueve, .productos .productoDiez {
+  width: 230px;
+  height: 304px;
+  margin: 40px;
+}
+
+.menulateral {
+  float: left;
+  width: 30%;
+  padding: 0;
+  margin: 0;
+  display: block;
+  color: white;
+}
+
+.productoUno {
+  width: 230px;
+  height: 304px;
+}
+
+.productoDos {
+  width: 230px;
+  height: 304px;
+}
+/*# sourceMappingURL=main.css.map */
