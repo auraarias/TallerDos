@@ -69,6 +69,10 @@ body{
     position: relative;
     background-color: rgb(117,116,173);
     
+    h1{
+        padding-left: 40px;
+        color: white;
+    }
 }
 
 .productos {
@@ -80,19 +84,20 @@ body{
 	justify-content: flex-start;
 	align-items: center;
 	align-content: space-around;
-    width: 70%;
+    width: 80%;
     padding: 0;
     margin: 0;
-    padding-left: 80px;
+    
 
     //PRODUCTOS
 
 .productoUno, .productoDos, .productoTres, .productoCuatro
 , .productoCinco, .productoSeis, .productoSiete,
 .productoOcho, .productoNueve, .productoDiez{
-    width: 230px;
-    height: 304px;
-    margin: 40px;
+    width: 330px;
+    height: 404px;
+    margin: 30px;
+    transition: .5s;
 }
 
 
@@ -102,15 +107,22 @@ body{
 
 .menulateral {
     float: left;
-    width: 30%;
+    width: 20%;
     padding: 0;
     margin: 0;
     display: block;
     color: white;
-    
+    background-color:  rgb(117,116,173);
+    padding-left: 30px;
+    height: 170px;
 
-   
 }
+
+.categorias{
+    padding-top: 50px;
+}
+
+
 
 //PRODUCTOS
 
@@ -123,3 +135,4 @@ body{
     width: 230px;
     height: 304px;
 }
+

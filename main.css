@@ -60,6 +60,11 @@ body {
   background-color: #7574ad;
 }
 
+.contenedores h1 {
+  padding-left: 40px;
+  color: white;
+}
+
 .productos {
   float: left;
   display: -webkit-flex;
@@ -69,27 +74,34 @@ body {
   justify-content: flex-start;
   align-items: center;
   align-content: space-around;
-  width: 70%;
+  width: 80%;
   padding: 0;
   margin: 0;
-  padding-left: 80px;
 }
 
 .productos .productoUno, .productos .productoDos, .productos .productoTres, .productos .productoCuatro
 , .productos .productoCinco, .productos .productoSeis, .productos .productoSiete,
 .productos .productoOcho, .productos .productoNueve, .productos .productoDiez {
-  width: 230px;
-  height: 304px;
-  margin: 40px;
+  width: 330px;
+  height: 404px;
+  margin: 30px;
+  transition: .5s;
 }
 
 .menulateral {
   float: left;
-  width: 30%;
+  width: 20%;
   padding: 0;
   margin: 0;
   display: block;
   color: white;
+  background-color: #7574ad;
+  padding-left: 30px;
+  height: 170px;
+}
+
+.categorias {
+  padding-top: 50px;
 }
 
 .productoUno {
